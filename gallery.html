@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Галерея</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Nyan cat</h1>
+    <ul>
+      <li><a href="index.html" target="_main">Главная</a></li>
+      <li><a href="breeds.html" target="_blank">Породы</a></li>
+      <li><a href="care.html" target="_blank">Уход и питание</a></li>
+      <li><a href="pasport.html" target="_blank">Паспорт котика</a></li>
+      <li>
+        <a id="current_page" href="gallery.html" target="_blank">Nyan cat </a>
+      </li>
+      <li>
+        <a
+          href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%88%D0%BA%D0%B0"
+          target="_blank"
+          >Статья в Wikipedia</a
+        >
+      </li>
+      <li>
+        <a href="https://www.rbc.ru/life/news/63aea4739a7947744cc01479"
+          ><img src="img/a5263f0d455113cb23499b28d47ec865.jpg" alt=""
+        /></a>
+      </li>
+    </ul>
+
+    <audio id="bgmusic" loop>
+      <source src="sound/Nyanyanyanyanyanyanya.mp3" type="audio/mpeg" />
+    </audio>
+
+    <button onclick="document.getElementById('bgmusic').play()">
+      Включить музыку
+    </button>
+
+    <button onclick="document.getElementById('bgmusic').pause()">Пауза</button>
+
+    <img width="100%" src="img/nyan-cat.gif" alt="" />
+  </body>
+</html>
